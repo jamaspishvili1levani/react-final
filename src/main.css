@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(60, 60, 60);
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0 20px 0;
+    color: white;
+}
+
+.noFav {
+    width: 100%;
+    text-align: center;
+    color: darkred;
+}
+
+.navBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    background-color: rgb(37, 37, 37);
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.navBar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navBar a:hover {
+    color: grey;
+}
+
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    background-color: rgb(37, 37, 37);
+    padding: 25px;
+    border-radius: 12px;
+}
+
+input,
+button {
+    width: 100%;
+    padding: 12px 15px;
+    margin-top: 12px;
+    border: 1px solid grey;
+    border-radius: 8px;
+    background-color: rgb(37, 37, 37);
+    color: white;
+}
+
+button {
+    background-color: gray;
+    color: white;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.search {
+    margin-bottom: 20px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    align-items: stretch;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: solid 1px grey;
+    background-color: rgb(60, 60, 60);
+    padding: 15px;
+    border-radius: 10px;
+    width: calc(50% - 10px);
+}
+
+.product h4 {
+    color: whitesmoke;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.product p {
+    color: rgb(215, 215, 215);
+    font-size: 14px;
+    margin-bottom: 10px;
+}
